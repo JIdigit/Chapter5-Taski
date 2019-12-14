@@ -15,10 +15,8 @@
 #     print('No')
 
 """Рабочий Вариант"""
-a = input("A stroka")
-a = a.upper()
-b = input('B stroka')
-b = b.upper()
+a = input("A stroka").upper()
+b = input('B stroka').upper()
 check = 0
 
 for i in range(len(a)-2):
